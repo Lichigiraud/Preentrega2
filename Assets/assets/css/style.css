@@ -74,6 +74,9 @@ h1{
       padding: 50px;
       margin: 50px;
 }
+.carousel-item{
+      left: 10%;
+}
 footer{
       background-color: rgb(146, 71, 0);
 }
