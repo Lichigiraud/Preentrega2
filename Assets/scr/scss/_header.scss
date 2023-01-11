@@ -7,13 +7,14 @@ header{
     color: black;
     font-size: 20px;
     .cajaIcono {
-        display: flex;
+        display: inline-flex;
         justify-content: space-between;
         >.tituloIcono{
             display: inline-flex;
         .navegador{
             display:inline-flex;
                 >.navegador .fa-bars{
+                    display: none;
                     display: none;
                 }
                 >ul{
@@ -25,6 +26,7 @@ header{
                         >a{
                             color: black;
                             text-align: right;
+                            display: inline-flex;
                             }
                         }
                     }

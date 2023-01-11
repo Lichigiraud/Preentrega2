@@ -1,0 +1,38 @@
+.cajaPadre{
+    >.tarjeta {
+        width: 150px;
+        border: solid 1px;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 40px;
+        
+        >.tarjeta__img{
+            width: 100%;
+            }
+        >.tarjeta__titulo{
+            margin: 20px;
+            }
+        >.tarjeta__precio{
+            margin: 10px;
+            }
+        >.tarjeta__btn{
+            padding: 5px;
+            border-radius: 8px;
+            background-color: brown;
+            margin: 10px;
+            }
+        }
+}
+.linea {
+    background: black;
+    height: 5px;
+    width: auto;
+    display: block;
+    }
+.descProducto{
+        margin-top: 10px;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        width: auto;
+    }
