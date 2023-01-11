@@ -1,0 +1,35 @@
+.presentacion{
+    >.titulo {color: rgb(158, 103, 30);
+                text-align: center;
+                text-decoration:underline double;
+                font-size: 75px;
+                text-shadow: 0 0 10px rgb(0, 0, 0);
+        }
+    >h1{
+        text-shadow: rgb(3, 3, 3);
+    }
+    >.presentacionDesc{ 
+        text-align: center;
+        text-decoration: underline;
+    }
+    >.lema{ 
+        padding: 300px 250px;
+        top: 500px;
+        left: 250px;
+        background-image: url(../imagen/Sillonpresentacion.png);
+        background-position: center;
+        background-size: cover;
+        background-position-x: center;
+        font-size: 50px;
+        text-align: center;
+        color: rgb(146, 93, 25);
+    }
+    >.bajoImagen{
+        font-size: 20px;
+        padding: 50px;
+        margin: 50px;
+    }
+}
+.carousel-item{
+    left: 10%;
+}

@@ -1,0 +1,172 @@
+/*
+body{
+    background-color: rgb(182, 168, 157);
+    font-family: 'Marck Script', cursive;
+}
+header{
+    top: 0%;    
+    width:auto;
+    height:auto;
+    background-color: rgb(146, 71, 0);   
+    font-family: 'Marck Script', cursive;
+    color: black;
+    font-size: 20px;
+
+} 
+.tituloIcono{
+    display: inline-flex;
+}
+.navegador{
+    display:inline-flex;
+}
+.navegador ul{
+    display: inline-flex;
+}
+.navegador ul li{   
+    color: black;
+    display: inline-flex;
+    text-align: right;
+}
+.navegador ul li a{
+    color: black;
+    text-align: right;
+}
+nav ul li {
+    list-style:square} 
+.presentacionDesc{ 
+    text-align: center;
+    text-decoration: underline;
+}
+.lema{ 
+    padding: 300px 250px;
+    top: 500px;
+    left: 250px;
+    background-image: url(../imagen/Sillonpresentacion.png);
+    background-position: center;
+    background-size: cover;
+    background-position-x: center;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(146, 93, 25);
+}
+
+.titulo {color: rgb(158, 103, 30);
+    text-align: center;
+    text-decoration:underline double;
+    font-size: 75px;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+h1{
+    text-shadow: rgb(3, 3, 3);
+}
+
+.bajoImagen{
+    font-size: 20px;
+    padding: 50px;
+    margin: 50px;
+}
+.carousel-item{
+    left: 10%;
+}
+footer{
+    background-color: rgb(146, 71, 0);
+}
+
+.cajaPadre{
+    justify-content: space-around;
+    display: inline-flex;
+}
+.linea {
+    background: black;
+    height: 5px;
+    width: auto;
+    display: block;
+    }
+.tarjeta {
+    width: 250px;
+    border: solid 1px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 40px;
+}
+.tarjeta__img{
+    width: 100%;
+    }
+.tarjeta__titulo{
+    margin: 20px;
+    }
+.tarjeta__precio{
+    margin: 10px;
+    }
+.tarjeta__btn{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: brown;
+    margin: 10px;
+}
+.descProducto{
+    margin-top: 100px;
+    width: 50%;
+    font-size: 20px;
+    align-items: center;
+    padding: 20px;
+}
+.tarjeta__btn:hover{
+    background-color: green;
+}
+.tarjeta:hover{
+    scale: 1.1;
+}
+
+.navegador .fa-bars{
+    display: none;
+}
+
+@media (max-width:576px) {
+    .navegador .fa-bars{
+        display: block;
+        color: black;
+        font-size: 36px;
+        padding: 5px;
+    }
+    .navegador > ul{
+        position: fixed;
+        top: 40px;
+        width: 200px;
+        flex-direction:column;
+        left:-300px;
+        height: 100vh;
+        transition: 0.5s;
+        background-color:  rgb(146, 71, 0);
+    }
+    .navegador .fa-bars:hover + ul{
+        left: 0;
+    } 
+    .navegador .ul:hover{
+        left: 0;
+    }
+    .lema{
+        text-align: center;
+        padding: 100px;
+        margin: 0;
+    }
+    .cajaPadre{
+    display: block;
+    align-items: center;
+    width: auto;
+    margin: auto;
+
+    }
+    .descProducto{
+        margin-top: 10px;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        width: auto;
+    }      
+    .tarjeta{
+        width: auto;
+    }
+}

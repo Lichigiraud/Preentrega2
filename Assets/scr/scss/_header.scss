@@ -1,0 +1,71 @@
+header{
+    top: 0%;    
+    width:auto;
+    height:auto;
+    background-color: rgb(146, 71, 0);   
+    font-family: 'Marck Script', cursive;
+    color: black;
+    font-size: 20px;
+    .cajaIcono {
+        display: flex;
+        justify-content: space-between;
+        >.tituloIcono{
+            display: inline-flex;
+        .navegador{
+            display:inline-flex;
+                >.navegador .fa-bars{
+                    display: none;
+                }
+                >ul{
+                    position: right;
+                    >li{
+                        color: black;
+                        display: inline-flex;
+                        text-align: right;
+                        >a{
+                            color: black;
+                            text-align: right;
+                            }
+                        }
+                    }
+            }
+    }
+    }
+} 
+
+
+@media (max-width:576px){
+    .navegador{
+        .fa-bars{
+            display: block;
+            color: black;
+            font-size: 36px;
+            padding: 5px;
+        }
+        > ul{
+            position: fixed;
+            top: 40px;
+            width: 200px;
+            flex-direction:column;
+            left:-300px;
+            height: 100vh;
+            transition: 0.5s;
+            background-color:  rgb(146, 71, 0);
+            
+        }
+        >.fa-bars:hover + ul{
+            left: 0;
+        } 
+        >.ul:hover{
+            left: 0;
+        }
+    }
+    .bajoImagen{
+        text-align: center;
+        margin: 0px;
+    }
+    .carousel-item{
+        position: 0 auto;
+        height: 100px;
+    }
+    }

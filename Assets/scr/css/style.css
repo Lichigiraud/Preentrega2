@@ -8,13 +8,21 @@ header {
   font-size: 20px;
 }
 header .cajaIcono {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 header .cajaIcono > .tituloIcono {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 header .cajaIcono > .tituloIcono .navegador {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 header .cajaIcono > .tituloIcono .navegador > .navegador .fa-bars {
@@ -25,6 +33,8 @@ header .cajaIcono > .tituloIcono .navegador > ul {
 }
 header .cajaIcono > .tituloIcono .navegador > ul > li {
   color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   text-align: right;
 }
@@ -44,9 +54,13 @@ header .cajaIcono > .tituloIcono .navegador > ul > li > a {
     position: fixed;
     top: 40px;
     width: 200px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     left: -300px;
     height: 100vh;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     background-color: rgb(146, 71, 0);
   }
@@ -74,7 +88,8 @@ header .cajaIcono > .tituloIcono .navegador > ul > li > a {
 * {
   margin: 0;
   padding: 0%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
   list-style: none;
 }
@@ -87,7 +102,8 @@ body {
 .presentacion > .titulo {
   color: rgb(158, 103, 30);
   text-align: center;
-  text-decoration: underline double;
+  -webkit-text-decoration: underline double;
+          text-decoration: underline double;
   font-size: 75px;
   text-shadow: 0 0 10px rgb(0, 0, 0);
 }
@@ -118,4 +134,4 @@ body {
 
 .carousel-item {
   left: 10%;
-}/*# sourceMappingURL=style.css.map */
+}
